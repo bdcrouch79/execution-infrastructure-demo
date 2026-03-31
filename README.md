@@ -14,6 +14,14 @@ Leadership and operations meetings generate action items, but cross-department f
 
 This repo models a disciplined but lightweight execution layer using shared action data, weekly commitments, cadence documentation, and a static review mock. The goal is visible accountability without turning the process into bureaucracy.
 
+## Screenshots
+
+### Overview
+![Execution Tracker Overview](docs/screenshots/hero-overview.png)
+
+### Detail View
+![Execution Tracker Detail](docs/screenshots/detail-view.png)
+
 ## Ecosystem Context
 
 This repo represents the follow-through layer in the broader IronRidge demo ecosystem. Requests originating in `workflow-drag-reduction-demo` can become tracked commitments here, field conditions from `contractor-ops-system-demo` can surface as blockers or escalations, and execution drift can roll up into the executive signals shown in `ops-visibility-demo`.
