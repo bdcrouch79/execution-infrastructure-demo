@@ -1,0 +1,25 @@
+CommitmentID,WeekStartDate,Department,Owner,CommitmentTitle,RelatedActionID,Status,ReviewNotes
+WC-801,2026-03-09,Project Delivery,Tyler Boone,Lock Northgate finish recovery steps,AI-501,Complete,Reviewed with field team and next sequence released
+WC-802,2026-03-09,Field Operations,Chris Dalton,Escalate Riverside egress conflict,AI-502,In Progress,Safety review moved forward but district signoff still open
+WC-803,2026-03-09,Operations Support,Kelsey Morgan,Issue first closeout aging summary,AI-503,Complete,Summary format approved by leadership
+WC-804,2026-03-09,Field Services,Jordan Hayes,Reset northern Kentucky dispatch plan,AI-504,In Progress,Route balancing underway and still needs staffing decision
+WC-805,2026-03-16,Operations Support,Lena Brooks,Collect Brookstone training signatures,AI-505,Blocked,Waiting on client attendance confirmation
+WC-806,2026-03-16,Project Delivery,Megan Foster,Review Summit startup recovery plan,AI-506,In Progress,Options developed and pending final PM alignment
+WC-807,2026-03-16,Field Operations,Aaron Pike,Confirm Westfield sealant corrective work,AI-507,In Progress,Mockup revision accepted pending field execution
+WC-808,2026-03-16,Operations Support,Olivia Chen,Confirm HQ refresh phase window,AI-508,Complete,Finance close window now reflected in internal plan
+WC-809,2026-03-16,Operations Support,Lena Brooks,Finalize Glenpark warranty draft,AI-509,Blocked,Awaiting one vendor attachment
+WC-810,2026-03-16,Operations Support,Kelsey Morgan,Prepare executive KPI packet,AI-510,Complete,Packet format adopted for weekly meeting
+WC-811,2026-03-23,Field Services,Brooke Allen,Clear Summit access control aging,AI-511,Blocked,Vendor response still missing
+WC-812,2026-03-23,Operations Support,Evan Cross,Refresh field issue ownership before Monday,AI-512,Complete,Owner list aligned to current projects
+WC-813,2026-03-23,Project Delivery,Matt Grayson,Collect Northgate commissioning updates,AI-513,Not Started,Trade updates due later this week
+WC-814,2026-03-23,Field Services,Olivia Chen,Align Cedar Hill contact matrix,AI-514,In Progress,Dispatch roster changes still being confirmed
+WC-815,2026-03-23,Field Services,Caleb Dyer,Review aging service queue with leads,AI-515,Complete,Backlog priorities updated by region
+WC-816,2026-03-23,Operations Support,Evan Cross,Update dashboard legend and labels,AI-516,Not Started,Planned after review packet release
+WC-817,2026-03-30,Project Delivery,Noah Whitaker,Document Riverside material recovery plan,AI-517,Blocked,Vendor lead times still not confirmed
+WC-818,2026-03-30,Special Projects,Megan Foster,Reschedule Glenpark owner training,AI-518,In Progress,New date drafted for client approval
+WC-819,2026-03-30,Operations Support,Rachel Holloway,Verify HQ shutdown approval path,AI-519,Not Started,Pending building operations callback
+WC-820,2026-03-30,Operations Support,Kelsey Morgan,Refine weekly watch-list narrative,AI-520,In Progress,Initial draft complete and under review
+WC-821,2026-03-30,Operations Support,Monica Reeves,Push Brookstone waiver package,AI-521,In Progress,Accounting review in final pass
+WC-822,2026-03-30,Operations Support,Lena Brooks,Confirm Northgate as-built timing,AI-522,Not Started,Waiting on superintendent handoff date
+WC-823,2026-03-30,Operations Support,Evan Cross,Backfill service category tags,AI-523,Complete,Historical categories updated for March reporting
+WC-824,2026-03-30,Field Services,Jordan Hayes,Document SLA exception reasons,AI-524,In Progress,Draft root causes assembled from dispatch notes

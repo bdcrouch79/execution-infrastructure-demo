@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronRidge Execution Tracker</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-main">
+        <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
+        <p class="eyebrow">Execution And Accountability Layer</p>
+        <h1>Execution Tracker</h1>
+        <p class="subhead">A lightweight weekly operating screen for commitments, blockers, overdue work, and visible owner accountability across IronRidge.</p>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-label">Weekly Review</div>
+        <div class="meta-value">March 31, 2026</div>
+        <div class="meta-note">Prepared for cross-functional operations cadence</div>
+      </div>
+    </header>
+
+    <section class="card-grid" id="summary-cards"></section>
+
+    <section class="two-up">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Owner Queue</h2>
+            <p>Where accountability pressure is most visible this week.</p>
+          </div>
+        </div>
+        <div id="owner-queue" class="stack"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Blockers By Area</h2>
+            <p>Current blocked work requiring escalation or support.</p>
+          </div>
+        </div>
+        <div id="blockers" class="stack"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <h2>Weekly Commitments</h2>
+          <p>Near-term commitments entering the review cadence.</p>
+        </div>
+        <div class="panel-chip">Review standard: weekly owner update before leadership review</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Owner</th>
+            <th>Commitment</th>
+            <th>Status</th>
+            <th>Review Notes</th>
+          </tr>
+        </thead>
+        <tbody id="commitment-rows"></tbody>
+      </table>
+    </section>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

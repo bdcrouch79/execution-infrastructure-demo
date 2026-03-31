@@ -1,0 +1,6 @@
+Owner,Department,ActionID,Title,DueDate,Status,BlockerFlag
+Chris Dalton,Field Operations,AI-502,Escalate Riverside temporary egress plan review,2026-03-31,Overdue,No
+Kelsey Morgan,Operations Support,AI-503,Publish weekly closeout aging list,2026-03-29,Overdue,No
+Lena Brooks,Operations Support,AI-505,Collect Brookstone training signoffs,2026-04-01,Blocked,Yes
+Brooke Allen,Field Services,AI-511,Resolve Summit access control ticket aging,2026-04-02,Blocked,Yes
+Noah Whitaker,Project Delivery,AI-517,Confirm Riverside material lead-time recovery plan,2026-04-02,Blocked,Yes

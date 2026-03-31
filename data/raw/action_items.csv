@@ -1,0 +1,25 @@
+ActionID,Title,Description,Department,Owner,RelatedProjectID,CreatedDate,DueDate,Priority,Status,BlockerFlag
+AI-501,Confirm Northgate finish sequence with plumbing trim,Resolve sequencing gap affecting finish turnover at Northgate,Project Delivery,Tyler Boone,IR-101,2026-03-24,2026-04-02,High,In Progress,No
+AI-502,Escalate Riverside temporary egress plan review,Close safety review loop with district and field leadership,Field Operations,Chris Dalton,IR-103,2026-03-18,2026-03-31,Critical,Overdue,No
+AI-503,Publish weekly closeout aging list,Issue standardized closeout aging view for leadership review,Operations Support,Kelsey Morgan,IR-104,2026-03-20,2026-03-29,Medium,Overdue,No
+AI-504,Reset service dispatch coverage for northern Kentucky,Stabilize Cedar Hill route coverage after workload shift,Field Services,Jordan Hayes,IR-107,2026-03-26,2026-04-03,High,In Progress,Yes
+AI-505,Collect Brookstone training signoffs,Complete missing client signoff packet before closeout turnover,Operations Support,Lena Brooks,IR-106,2026-03-17,2026-04-01,Medium,Blocked,Yes
+AI-506,Review Summit dock startup recovery options,Align revised startup path with PM and field sequence,Project Delivery,Megan Foster,IR-102,2026-03-25,2026-04-04,High,Not Started,No
+AI-507,Validate Westfield sealant mockup corrective action,Confirm field corrective plan after mockup rejection,Field Operations,Aaron Pike,IR-105,2026-03-26,2026-04-05,Medium,In Progress,No
+AI-508,Confirm HQ refresh phase window with finance,Lock internal work window around monthly close activities,Operations Support,Olivia Chen,IR-108,2026-03-24,2026-04-02,Medium,In Progress,No
+AI-509,Close Glenpark warranty letter draft,Finalize owner-facing warranty package for turnover,Operations Support,Lena Brooks,IR-104,2026-03-18,2026-03-30,Low,Overdue,No
+AI-510,Prepare executive KPI packet,Assemble weekly review packet for leadership meeting,Operations Support,Kelsey Morgan,,2026-03-26,2026-04-01,High,In Progress,No
+AI-511,Resolve Summit access control ticket aging,Coordinate service and project teams on access issue,Field Services,Brooke Allen,IR-102,2026-03-22,2026-04-02,High,Blocked,Yes
+AI-512,Update open field issue owners for Monday review,Clean up owner attribution before the execution meeting,Operations Support,Evan Cross,,2026-03-27,2026-04-01,Medium,Complete,No
+AI-513,Collect Northgate commissioning log updates,Pull latest trade input into final commissioning log,Project Delivery,Matt Grayson,IR-101,2026-03-28,2026-04-07,Medium,Not Started,No
+AI-514,Align Cedar Hill site contact matrix to dispatch roster,Match service contact coverage to active routes,Field Services,Olivia Chen,IR-107,2026-03-27,2026-04-08,Medium,In Progress,No
+AI-515,Review aging service queue with region leads,Confirm priorities and ownership across open ticket backlog,Field Services,Caleb Dyer,,2026-03-26,2026-04-03,High,In Progress,No
+AI-516,Update closeout dashboard legend and definitions,Clarify dashboard labels before executive distribution,Operations Support,Evan Cross,,2026-03-27,2026-04-06,Low,Not Started,No
+AI-517,Confirm Riverside material lead-time recovery plan,Document replacement supplier path and recovery dates,Project Delivery,Noah Whitaker,IR-103,2026-03-21,2026-04-02,High,Blocked,Yes
+AI-518,Issue Glenpark owner training reschedule,Send revised training date and agenda to client team,Special Projects,Megan Foster,IR-104,2026-03-26,2026-04-01,Medium,In Progress,No
+AI-519,Verify HQ shutdown approval path,Confirm final approval sequence for internal weekend work,Operations Support,Rachel Holloway,IR-108,2026-03-28,2026-04-04,Medium,Not Started,No
+AI-520,Review weekly watch-list narrative for leadership,Refine summary language for leadership packet,Operations Support,Kelsey Morgan,,2026-03-28,2026-04-05,Medium,Not Started,No
+AI-521,Push Brookstone waiver package to accounting,Hand off waiver package so billing closeout can finish,Operations Support,Monica Reeves,IR-106,2026-03-24,2026-04-02,High,In Progress,No
+AI-522,Confirm Northgate as-built handoff timing,Validate final handoff date with project team and client,Operations Support,Lena Brooks,IR-101,2026-03-29,2026-04-10,Medium,Not Started,No
+AI-523,Backfill missing service ticket category tags,Clean category history so service reporting is usable,Operations Support,Evan Cross,,2026-03-25,2026-04-09,Low,Complete,No
+AI-524,Document service SLA exception reasons for March,Summarize root causes behind SLA misses,Field Services,Jordan Hayes,,2026-03-27,2026-04-08,Medium,In Progress,No

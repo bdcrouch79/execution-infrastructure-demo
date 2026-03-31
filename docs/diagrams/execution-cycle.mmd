@@ -1,0 +1,8 @@
+flowchart LR
+    A[Meeting] --> B[Action Capture]
+    B --> C[Ownership]
+    C --> D[Weekly Review]
+    D --> E{Blocked Or Overdue}
+    E -->|Yes| F[Escalation]
+    E -->|No| G[Completion]
+    F --> D
