@@ -1,6 +1,6 @@
 # Screenshots
 
-Capture the following screenshots for portfolio use:
+Capture these views:
 
 - full execution tracker overview with summary cards and owner queue visible
 - owner accountability area showing overdue or blocked work

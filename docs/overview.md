@@ -4,9 +4,9 @@
 
 IronRidge Execution Tracker
 
-## What This Repo Demonstrates
+## What It Shows
 
-This repository shows how IronRidge could operationalize follow-through by making commitments, ownership, blockers, and review cadence visible in one practical system layer.
+This repo shows how IronRidge could make follow-through more visible by keeping commitments, ownership, blockers, and review cadence in one practical system layer.
 
 ## Primary Audience
 

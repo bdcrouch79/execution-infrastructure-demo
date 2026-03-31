@@ -6,10 +6,10 @@ IronRidge Contractors is a fictional mid-sized commercial contractor and field o
 
 ## The Four Demo Repositories
 
-- `ops-visibility-demo` — executive reporting layer for project health, service backlog, closeout readiness, and risk
-- `workflow-drag-reduction-demo` — internal support request workflow for intake, routing, approvals, and aging visibility
-- `execution-infrastructure-demo` — lightweight execution tracker for commitments, blockers, ownership, and weekly review cadence
-- `contractor-ops-system-demo` — field-aware operations tracker for issues, punch items, escalation, and closeout readiness
+- `ops-visibility-demo` - executive reporting layer for project health, service backlog, closeout readiness, and risk
+- `workflow-drag-reduction-demo` - internal support request workflow for intake, routing, approvals, and aging visibility
+- `execution-infrastructure-demo` - lightweight execution tracker for commitments, blockers, ownership, and weekly review cadence
+- `contractor-ops-system-demo` - field-aware operations tracker for issues, punch items, escalation, and closeout readiness
 
 ## How This Repository Fits
 

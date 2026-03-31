@@ -11,4 +11,4 @@ IronRidge has strong people and active meetings, but accountability infrastructu
 
 ## Why Leaders Care
 
-Execution drift usually appears before it becomes a project problem, but only if someone can see it. A lightweight tracker gives leaders a faster view of overdue work, blocked work, and owner accountability.
+Execution drift usually shows up before it becomes a project problem, but only if someone can actually see it. A lightweight tracker gives leaders a faster read on overdue work, blocked work, and owner accountability.

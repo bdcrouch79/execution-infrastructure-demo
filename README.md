@@ -2,15 +2,17 @@
 
 ## Overview
 
-IronRidge Execution Tracker shows how IronRidge Contractors could make follow-through more visible by keeping commitments, owners, blockers, due dates, and weekly review rhythm in one lightweight operating layer.
+This repo shows what cleaner follow-through can look like when commitments, owners, blockers, due dates, and weekly review all live in one place.
+
+The IronRidge Execution Tracker is meant to feel like operating infrastructure, not theory. It is the part of the ecosystem that keeps work from disappearing after the meeting ends.
 
 ## Business Problem
 
-Leadership and operations meetings create action items, but cross-department follow-through becomes inconsistent when commitments are not visible in one place. Teams need a practical way to see overdue work, blocked items, and near-term commitments before execution drift turns into project or operational drag.
+Leadership and operations meetings generate action items, but cross-department follow-through slips when commitments are scattered across notes, inboxes, and memory. Teams need a practical way to see overdue work, blocked items, and near-term commitments before execution drift becomes a project problem.
 
-## Solution Concept
+## What This Repo Adds
 
-This repo models a disciplined but lightweight execution layer using shared action data, weekly commitments, concise cadence documentation, and a static review mock. The goal is to make accountability tangible without making the process bureaucratic.
+This repo models a disciplined but lightweight execution layer using shared action data, weekly commitments, cadence documentation, and a static review mock. The goal is visible accountability without turning the process into bureaucracy.
 
 ## Ecosystem Context
 
@@ -30,9 +32,9 @@ This repo represents the follow-through layer in the broader IronRidge demo ecos
 
 The raw layer focuses on ownership, due dates, blocker flags, project linkage, and commitment review notes. Curated outputs condense that detail into the kinds of summaries an operations leader would actually use in a weekly review.
 
-## Mock Experience / Screenshots
+## Mock Experience
 
-The mock tracker emphasizes overdue work, owner accountability, blocker visibility, and weekly commitments. It is designed to feel like a realistic internal review screen for an operations leader rather than a generic project-management template.
+The mock tracker emphasizes overdue work, owner accountability, blocker visibility, and weekly commitments. It should feel like a realistic internal review screen for an operations leader, not a generic project-management template.
 
 ## Future Enhancements
 
@@ -43,4 +45,4 @@ The mock tracker emphasizes overdue work, owner accountability, blocker visibili
 
 ## Fictional Demo Notice
 
-This repository is part of a fictional demonstration environment built around IronRidge Contractors, a sample contractor-focused operating company created to showcase reporting, workflow, execution, and operations system design. Names, data, and scenarios are illustrative, but the business patterns reflect real-world operational needs.
+This repository is part of a fictional IronRidge Contractors environment built to show reporting, workflow, execution, and field operations design. The names and records are made up. The operating patterns are familiar.

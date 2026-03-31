@@ -1,7 +1,7 @@
 const cards = [
-  { label: "Overdue Actions", value: "3", note: "Visible execution slippage across field and support work." },
+  { label: "Overdue Actions", value: "3", note: "Visible slippage across field and support work." },
   { label: "Blocked Actions", value: "4", note: "Most blockers are tied to vendor or field dependency issues." },
-  { label: "This Week's Commitments", value: "8", note: "Commitments currently entering weekly review cadence." },
+  { label: "This Week's Commitments", value: "8", note: "Commitments currently entering weekly review." },
   { label: "Completed Last Week", value: "2", note: "Recent completions before carry-forward review." }
 ];
 
@@ -9,7 +9,7 @@ const ownerQueue = [
   { title: "Chris Dalton", meta: "Riverside egress escalation remains overdue", tone: "risk" },
   { title: "Lena Brooks", meta: "Brookstone and Glenpark closeout work still needs follow-through", tone: "warn" },
   { title: "Brooke Allen", meta: "Summit access control issue remains blocked", tone: "warn" },
-  { title: "Kelsey Morgan", meta: "Leadership packet and watch-list narrative are in motion", tone: "ok" }
+  { title: "Kelsey Morgan", meta: "Leadership packet and watch-list narrative are moving", tone: "ok" }
 ];
 
 const blockers = [
