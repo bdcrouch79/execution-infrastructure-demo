@@ -13,57 +13,84 @@
         <img class="wordmark" src="../../assets/ironridge-wordmark.svg" alt="IronRidge Contractors" />
         <p class="eyebrow">Execution And Accountability Layer</p>
         <h1>Execution Tracker</h1>
-        <p class="subhead">A lightweight weekly operating screen for commitments, blockers, overdue work, and visible owner accountability across IronRidge.</p>
+        <p class="subhead">A weekly operating screen for commitments, blockers, overdue work, and the follow-through conversations that keep execution moving.</p>
       </div>
-      <div class="hero-meta">
+      <aside class="hero-meta">
         <div class="meta-label">Weekly Review</div>
         <div class="meta-value">March 31, 2026</div>
-        <div class="meta-note">Prepared for the cross-functional weekly review</div>
-      </div>
+        <div class="meta-note">Prepared for the cross-functional weekly review with clear owner visibility and carry-forward pressure.</div>
+      </aside>
     </header>
 
-    <section class="card-grid" id="summary-cards"></section>
+    <section class="review-strip" id="summary-cards"></section>
 
-    <section class="two-up">
-      <div class="panel">
-        <div class="panel-header">
-          <div>
-            <h2>Owner Queue</h2>
-            <p>Where accountability pressure is showing up most clearly this week.</p>
-          </div>
+    <section class="panel board-panel">
+      <div class="panel-header">
+        <div>
+          <h2>Weekly Review Board</h2>
+          <p>What needs a push, what is blocked, and what can close this week.</p>
         </div>
-        <div id="owner-queue" class="stack"></div>
+        <div class="panel-chip">Cadence: owner update before leadership review</div>
       </div>
-      <div class="panel">
-        <div class="panel-header">
-          <div>
-            <h2>Blockers By Area</h2>
-            <p>Blocked work that needs escalation or direct support.</p>
+      <div class="board-grid">
+        <section class="board-column board-risk">
+          <div class="column-header">
+            <h3>Needs Push</h3>
+            <span class="column-pill">Escalation pressure</span>
           </div>
-        </div>
-        <div id="blockers" class="stack"></div>
+          <div id="owner-queue" class="board-stack"></div>
+        </section>
+
+        <section class="board-column board-warn">
+          <div class="column-header">
+            <h3>Blocked</h3>
+            <span class="column-pill">Dependencies unresolved</span>
+          </div>
+          <div id="blockers" class="board-stack"></div>
+        </section>
+
+        <section class="board-column board-ok">
+          <div class="column-header">
+            <h3>Closing This Week</h3>
+            <span class="column-pill">Momentum to protect</span>
+          </div>
+          <div id="momentum" class="board-stack"></div>
+        </section>
       </div>
     </section>
 
-    <section class="panel">
-      <div class="panel-header">
-        <div>
-          <h2>Weekly Commitments</h2>
-          <p>Near-term commitments heading into the weekly review.</p>
+    <section class="lower-grid">
+      <section class="panel commitments-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Weekly Commitments</h2>
+            <p>Near-term commitments heading into the review.</p>
+          </div>
         </div>
-        <div class="panel-chip">Review standard: owner update before leadership review</div>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Owner</th>
-            <th>Commitment</th>
-            <th>Status</th>
-            <th>Review Notes</th>
-          </tr>
-        </thead>
-        <tbody id="commitment-rows"></tbody>
-      </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Commitment</th>
+              <th>Status</th>
+              <th>Review Notes</th>
+            </tr>
+          </thead>
+          <tbody id="commitment-rows"></tbody>
+        </table>
+      </section>
+
+      <aside class="cadence-rail">
+        <section class="panel cadence-panel">
+          <div class="panel-header rail-header">
+            <div>
+              <h2>Review Rhythm</h2>
+              <p>The operating habits this screen is built around.</p>
+            </div>
+          </div>
+          <div id="cadence-items" class="cadence-list"></div>
+        </section>
+      </aside>
     </section>
   </div>
   <script src="./app.js"></script>
