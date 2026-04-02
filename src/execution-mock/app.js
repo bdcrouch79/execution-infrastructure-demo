@@ -1,39 +1,73 @@
 const cards = [
-  { label: "Overdue Actions", value: "3", note: "Visible slippage across field and support work." },
-  { label: "Blocked Actions", value: "4", note: "Most blockers are tied to vendor or field dependency issues." },
-  { label: "This Week's Commitments", value: "8", note: "Commitments currently entering weekly review." },
-  { label: "Completed Last Week", value: "2", note: "Recent completions before carry-forward review." }
+  { label: "Needs Push", value: "4", note: "Work still has an owner, but it needs pressure to move." },
+  { label: "Blocked", value: "3", note: "One Riverside item is still fully stuck in dependency territory." },
+  { label: "Closing This Week", value: "3", note: "A few commitments are finally close enough to protect." },
+  { label: "Carry-Forward Risk", value: "2", note: "Work most likely to slip into next week's review." }
 ];
 
-const ownerQueue = [
-  { title: "Chris Dalton", copy: "Riverside egress escalation remains overdue and still needs a clean decision path.", tone: "risk" },
-  { title: "Lena Brooks", copy: "Brookstone and Glenpark closeout work still need tighter follow-through this week.", tone: "warn" },
-  { title: "Brooke Allen", copy: "Summit access control issue remains blocked by vendor and startup coordination.", tone: "warn" }
+const needsPush = [
+  {
+    actionId: "AI-509",
+    title: "Close package gaps",
+    owner: "Lena Brooks",
+    source: "REQ-626",
+    copy: "Glenpark is no longer blocked, but it still needs one more push to clear the turnover package.",
+    tone: "warn"
+  },
+  {
+    actionId: "AI-520",
+    title: "Review weekly watch-list narrative",
+    owner: "Kelsey Morgan",
+    source: "Leadership packet",
+    copy: "Narrative is drafted, but still needs one more pass before the review reads cleanly.",
+    tone: "warn"
+  }
 ];
 
-const blockers = [
-  { title: "Field Services", copy: "2 blocked actions tied to vendor response timing and route coverage." },
-  { title: "Operations Support", copy: "1 blocked action waiting on client signoff before handoff work can finish." },
-  { title: "Project Delivery", copy: "1 blocked action linked to material lead-time recovery and resequencing." }
+const blocked = [
+  {
+    actionId: "AI-502",
+    title: "Escalate egress conflict",
+    owner: "Chris Dalton",
+    source: "REQ-617",
+    copy: "Riverside is still stuck on district signoff, so the action has nowhere to go yet.",
+    tone: "risk"
+  },
+  {
+    actionId: "AI-517",
+    title: "Confirm Riverside material recovery plan",
+    owner: "Noah Whitaker",
+    source: "Vendor lead times",
+    copy: "Material timing is still unresolved, which keeps the recovery path soft even if routing clears.",
+    tone: "risk"
+  }
 ];
 
-const momentum = [
-  { title: "Kelsey Morgan", copy: "Leadership packet and watch-list narrative are moving and should close before review.", tone: "ok" },
-  { title: "Megan Foster", copy: "Summit startup recovery plan is drafted and ready for PM review this week.", tone: "ok" },
-  { title: "Northgate Turnover", copy: "As-built timing is lining up, assuming superintendent handoff stays on schedule.", tone: "ok" }
-];
-
-const cadenceItems = [
-  { title: "Owner update before review", copy: "Each owner clears stale status before the weekly meeting so the room is not rebuilding the story live." },
-  { title: "Blocked work gets named directly", copy: "Dependencies are surfaced by area, not buried inside generic status notes." },
-  { title: "Carry-forward is visible", copy: "Anything slipping from last week stays visible until it is either closed or re-scoped." }
+const closingThisWeek = [
+  {
+    actionId: "AI-504",
+    title: "Reset dispatch coverage",
+    owner: "Jordan Hayes",
+    source: "REQ-624",
+    copy: "Cedar Hill handoffs are finally tightening up and route coverage should close this week if nothing reopens.",
+    tone: "ok"
+  },
+  {
+    actionId: "AI-518",
+    title: "Issue Glenpark owner training reschedule",
+    owner: "Megan Foster",
+    source: "Client follow-up",
+    copy: "Reschedule language is drafted and just needs the client confirmation back.",
+    tone: "ok"
+  }
 ];
 
 const commitments = [
-  ["Chris Dalton", "Escalate Riverside egress conflict", "In Progress", "District signoff still pending"],
-  ["Megan Foster", "Review Summit startup recovery plan", "In Progress", "Recovery options drafted for PM review"],
-  ["Kelsey Morgan", "Refine weekly watch-list narrative", "In Progress", "Draft ready for leadership review"],
-  ["Lena Brooks", "Confirm Northgate as-built timing", "Not Started", "Awaiting superintendent handoff date"]
+  ["AI-502", "Escalate egress conflict", "Chris Dalton", "Blocked", "REQ-617"],
+  ["AI-509", "Close package gaps", "Lena Brooks", "Needs Push", "REQ-626"],
+  ["AI-504", "Reset dispatch coverage", "Jordan Hayes", "Closing This Week", "REQ-624"],
+  ["AI-518", "Issue Glenpark owner training reschedule", "Megan Foster", "In Progress", "Client follow-up"],
+  ["AI-520", "Review weekly watch-list narrative", "Kelsey Morgan", "In Progress", "Leadership packet"]
 ];
 
 document.getElementById("summary-cards").innerHTML = cards.map((item) => `
@@ -53,22 +87,32 @@ function renderBoard(id, rows, tagged = false) {
   `).join("");
 }
 
-renderBoard("owner-queue", ownerQueue, true);
-renderBoard("blockers", blockers, false);
-renderBoard("momentum", momentum, true);
+renderBoard("needs-push", needsPush, true);
+renderBoard("blocked", blocked, true);
+renderBoard("closing-this-week", closingThisWeek, true);
 
-document.getElementById("cadence-items").innerHTML = cadenceItems.map((item) => `
-  <article class="cadence-item">
-    <div class="cadence-title">${item.title}</div>
-    <div class="cadence-copy">${item.copy}</div>
-  </article>
-`).join("");
+function getStatusClass(status) {
+  if (status === "Blocked") {
+    return "risk";
+  }
 
-document.getElementById("commitment-rows").innerHTML = commitments.map(([owner, title, status, notes]) => `
+  if (status === "Needs Push") {
+    return "warn";
+  }
+
+  if (status === "Closing This Week") {
+    return "ok";
+  }
+
+  return "neutral";
+}
+
+document.getElementById("commitment-rows").innerHTML = commitments.map(([actionId, title, owner, status, source]) => `
   <tr>
+    <td><span class="row-id">${actionId}</span></td>
+    <td><div class="row-title">${title}</div></td>
     <td>${owner}</td>
-    <td>${title}</td>
-    <td>${status}</td>
-    <td>${notes}</td>
+    <td><span class="badge ${getStatusClass(status)}">${status}</span></td>
+    <td><span class="source-pill">${source}</span></td>
   </tr>
 `).join("");

@@ -24,73 +24,62 @@
 
     <section class="review-strip" id="summary-cards"></section>
 
-    <section class="panel board-panel">
-      <div class="panel-header">
-        <div>
-          <h2>Weekly Review Board</h2>
-          <p>What needs a push, what is blocked, and what can close this week.</p>
+    <section class="main-grid">
+      <section class="panel board-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Weekly Review Board</h2>
+            <p>What needs a push, what is blocked, and what can close this week.</p>
+          </div>
+          <div class="panel-chip">Cadence: owner update before leadership review</div>
         </div>
-        <div class="panel-chip">Cadence: owner update before leadership review</div>
-      </div>
-      <div class="board-grid">
-        <section class="board-column board-risk">
-          <div class="column-header">
-            <h3>Needs Push</h3>
-            <span class="column-pill">Escalation pressure</span>
-          </div>
-          <div id="owner-queue" class="board-stack"></div>
-        </section>
+        <div class="board-grid">
+          <section class="board-column board-risk">
+            <div class="column-header">
+              <h3>Needs Push</h3>
+              <span class="column-pill">Escalation pressure</span>
+            </div>
+            <div id="needs-push" class="board-stack"></div>
+          </section>
 
-        <section class="board-column board-warn">
-          <div class="column-header">
-            <h3>Blocked</h3>
-            <span class="column-pill">Dependencies unresolved</span>
-          </div>
-          <div id="blockers" class="board-stack"></div>
-        </section>
+          <section class="board-column board-warn">
+            <div class="column-header">
+              <h3>Blocked</h3>
+              <span class="column-pill">Dependencies unresolved</span>
+            </div>
+            <div id="blocked" class="board-stack"></div>
+          </section>
 
-        <section class="board-column board-ok">
-          <div class="column-header">
-            <h3>Closing This Week</h3>
-            <span class="column-pill">Momentum to protect</span>
-          </div>
-          <div id="momentum" class="board-stack"></div>
-        </section>
-      </div>
-    </section>
+          <section class="board-column board-ok">
+            <div class="column-header">
+              <h3>Closing This Week</h3>
+              <span class="column-pill">Momentum to protect</span>
+            </div>
+            <div id="closing-this-week" class="board-stack"></div>
+          </section>
+        </div>
+      </section>
 
-    <section class="lower-grid">
       <section class="panel commitments-panel">
         <div class="panel-header">
           <div>
             <h2>Weekly Commitments</h2>
-            <p>Near-term commitments heading into the review.</p>
+            <p>Near-term commitments heading into the review, with source context visible.</p>
           </div>
         </div>
         <table>
           <thead>
             <tr>
+              <th>Action ID</th>
+              <th>Title</th>
               <th>Owner</th>
-              <th>Commitment</th>
               <th>Status</th>
-              <th>Review Notes</th>
+              <th>Source Request</th>
             </tr>
           </thead>
           <tbody id="commitment-rows"></tbody>
         </table>
       </section>
-
-      <aside class="cadence-rail">
-        <section class="panel cadence-panel">
-          <div class="panel-header rail-header">
-            <div>
-              <h2>Review Rhythm</h2>
-              <p>The operating habits this screen is built around.</p>
-            </div>
-          </div>
-          <div id="cadence-items" class="cadence-list"></div>
-        </section>
-      </aside>
     </section>
   </div>
   <script src="./app.js"></script>

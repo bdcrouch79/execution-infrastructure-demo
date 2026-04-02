@@ -1,13 +1,13 @@
 CommitmentID,WeekStartDate,Department,Owner,CommitmentTitle,RelatedActionID,Status,ReviewNotes
 WC-801,2026-03-09,Project Delivery,Tyler Boone,Lock Northgate finish recovery steps,AI-501,Complete,Reviewed with field team and next sequence released
-WC-802,2026-03-09,Field Operations,Chris Dalton,Escalate Riverside egress conflict,AI-502,In Progress,Safety review moved forward but district signoff still open
+WC-802,2026-03-30,Field Operations,Chris Dalton,Escalate egress conflict,AI-502,Blocked,REQ-617 is routed but district signoff is still blocking movement
 WC-803,2026-03-09,Operations Support,Kelsey Morgan,Issue first closeout aging summary,AI-503,Complete,Summary format approved by leadership
-WC-804,2026-03-09,Field Services,Jordan Hayes,Reset northern Kentucky dispatch plan,AI-504,In Progress,Route balancing underway and still needs staffing decision
+WC-804,2026-03-30,Field Services,Jordan Hayes,Reset dispatch coverage,AI-504,Closing This Week,REQ-624 handoffs are stabilizing and final route coverage should close this week
 WC-805,2026-03-16,Operations Support,Lena Brooks,Collect Brookstone training signatures,AI-505,Blocked,Waiting on client attendance confirmation
 WC-806,2026-03-16,Project Delivery,Megan Foster,Review Summit startup recovery plan,AI-506,In Progress,Options developed and pending final PM alignment
 WC-807,2026-03-16,Field Operations,Aaron Pike,Confirm Westfield sealant corrective work,AI-507,In Progress,Mockup revision accepted pending field execution
 WC-808,2026-03-16,Operations Support,Olivia Chen,Confirm HQ refresh phase window,AI-508,Complete,Finance close window now reflected in internal plan
-WC-809,2026-03-16,Operations Support,Lena Brooks,Finalize Glenpark warranty draft,AI-509,Blocked,Awaiting one vendor attachment
+WC-809,2026-03-16,Operations Support,Lena Brooks,Close Glenpark package gaps,Blocked,Startup sheets and attic stock are still holding turnover back
 WC-810,2026-03-16,Operations Support,Kelsey Morgan,Prepare executive KPI packet,AI-510,Complete,Packet format adopted for weekly meeting
 WC-811,2026-03-23,Field Services,Brooke Allen,Clear Summit access control aging,AI-511,Blocked,Vendor response still missing
 WC-812,2026-03-23,Operations Support,Evan Cross,Refresh field issue ownership before Monday,AI-512,Complete,Owner list aligned to current projects
@@ -23,3 +23,4 @@ WC-821,2026-03-30,Operations Support,Monica Reeves,Push Brookstone waiver packag
 WC-822,2026-03-30,Operations Support,Lena Brooks,Confirm Northgate as-built timing,AI-522,Not Started,Waiting on superintendent handoff date
 WC-823,2026-03-30,Operations Support,Evan Cross,Backfill service category tags,AI-523,Complete,Historical categories updated for March reporting
 WC-824,2026-03-30,Field Services,Jordan Hayes,Document SLA exception reasons,AI-524,In Progress,Draft root causes assembled from dispatch notes
+WC-809,2026-03-30,Operations Support,Lena Brooks,Close package gaps,AI-509,Needs Push,REQ-626 is waiting on one more vendor handoff before turnover package can clear

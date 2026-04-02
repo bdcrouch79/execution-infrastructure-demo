@@ -44,6 +44,16 @@ The raw layer focuses on ownership, due dates, blocker flags, project linkage, a
 
 The mock tracker emphasizes overdue work, owner accountability, blocker visibility, and weekly commitments. It should feel like a realistic internal review screen for an operations leader, not a generic project-management template.
 
+## Example Record Flow
+
+The cleanest lineage example in this repo is `AI-502`, tied to `IR-103 | Riverside Schools Facility Upgrade`.
+
+- The action exists because `REQ-617` in `workflow-drag-reduction-demo` made the egress problem visible as formal work.
+- It stays alive here through owner accountability, overdue pressure, and weekly review notes instead of disappearing after discussion.
+- The same underlying condition is visible as `FI-305` in `contractor-ops-system-demo` and contributes directly to Riverside showing up as the clearest escalation case in `ops-visibility-demo`.
+
+The weekly review board also carries the connected Glenpark closeout thread through `AI-509` and the Cedar Hill route strain through `AI-504`.
+
 ## Future Enhancements
 
 - add simple carry-forward logic for incomplete commitments

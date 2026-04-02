@@ -1,13 +1,13 @@
 ActionID,Title,Description,Department,Owner,RelatedProjectID,CreatedDate,DueDate,Priority,Status,BlockerFlag
 AI-501,Confirm Northgate finish sequence with plumbing trim,Resolve sequencing gap affecting finish turnover at Northgate,Project Delivery,Tyler Boone,IR-101,2026-03-24,2026-04-02,High,In Progress,No
-AI-502,Escalate Riverside temporary egress plan review,Close safety review loop with district and field leadership,Field Operations,Chris Dalton,IR-103,2026-03-18,2026-03-31,Critical,Overdue,No
+AI-502,Escalate egress conflict,Close safety review loop with district and field leadership after REQ-617 routing stalled,Field Operations,Chris Dalton,IR-103,2026-03-28,2026-04-01,Critical,Blocked,Yes
 AI-503,Publish weekly closeout aging list,Issue standardized closeout aging view for leadership review,Operations Support,Kelsey Morgan,IR-104,2026-03-20,2026-03-29,Medium,Overdue,No
-AI-504,Reset service dispatch coverage for northern Kentucky,Stabilize Cedar Hill route coverage after workload shift,Field Services,Jordan Hayes,IR-107,2026-03-26,2026-04-03,High,In Progress,Yes
+AI-504,Reset dispatch coverage,Stabilize Cedar Hill route coverage after workload strain and missed handoffs from REQ-624,Field Services,Jordan Hayes,IR-107,2026-03-30,2026-04-02,High,Closing This Week,No
 AI-505,Collect Brookstone training signoffs,Complete missing client signoff packet before closeout turnover,Operations Support,Lena Brooks,IR-106,2026-03-17,2026-04-01,Medium,Blocked,Yes
 AI-506,Review Summit dock startup recovery options,Align revised startup path with PM and field sequence,Project Delivery,Megan Foster,IR-102,2026-03-25,2026-04-04,High,Not Started,No
 AI-507,Validate Westfield sealant mockup corrective action,Confirm field corrective plan after mockup rejection,Field Operations,Aaron Pike,IR-105,2026-03-26,2026-04-05,Medium,In Progress,No
 AI-508,Confirm HQ refresh phase window with finance,Lock internal work window around monthly close activities,Operations Support,Olivia Chen,IR-108,2026-03-24,2026-04-02,Medium,In Progress,No
-AI-509,Close Glenpark warranty letter draft,Finalize owner-facing warranty package for turnover,Operations Support,Lena Brooks,IR-104,2026-03-18,2026-03-30,Low,Overdue,No
+AI-509,Close package gaps,Finalize warranty letter, attic stock, and startup sheet package after REQ-626 surfaced turnover risk,Operations Support,Lena Brooks,IR-104,2026-03-27,2026-04-02,High,Needs Push,No
 AI-510,Prepare executive KPI packet,Assemble weekly review packet for leadership meeting,Operations Support,Kelsey Morgan,,2026-03-26,2026-04-01,High,In Progress,No
 AI-511,Resolve Summit access control ticket aging,Coordinate service and project teams on access issue,Field Services,Brooke Allen,IR-102,2026-03-22,2026-04-02,High,Blocked,Yes
 AI-512,Update open field issue owners for Monday review,Clean up owner attribution before the execution meeting,Operations Support,Evan Cross,,2026-03-27,2026-04-01,Medium,Complete,No
